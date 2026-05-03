@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Connexion...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="text-align:center; font-family:sans-serif; margin-top:40px;"
+      onclick="playSound()">
+
+<h2>Connexion en cours...</h2>
+<p>Veuillez patienter</p>
+
+<audio id="sound">
+  <source src="prout.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function playSound() {
+  document.getElementById('sound').play();
+}
